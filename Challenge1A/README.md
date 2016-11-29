@@ -21,24 +21,28 @@ Because buckets can be reused an arbitrary number of times, not used, and arrang
 We need to find the Cartesian product of length `lower_bound` to a specified `upper_bound` value for a given sequence of numbers.  The `upper_bound` is the greatest possible length that the buckets can be arranged in, and `lower_bound` is the smallest possible length that the buckets can be arranged in.  We find `lower_bound` by dividing the target by the largest bucket, and 'upper_bound` by dividing the target by the smallest bucket.
 
 
-###How To Use
+###How To Use:
 Run the solution using Python 2.7.  The program looks for two call-line arguments: `<target>` and `<buckets>`.
 `<target>` should be a number, e.g., 128
 `<buckets>` should be a list of numbers, separated by commas, should not contain spaces, and should have an opening and closing brace, e.g., `[1,2,3,4]`
 
-####Examples
+####Examples:
+#####Arguments
 `python sol1a.py 50 [2,4,6]`
 #####Output:
 `True`
 
+#####Arguments
 `python sol1a.py 976 [2,7,9,9]`
 #####Output:
 `True`
 
+#####Arguments
 `python sol1a.py 1 [2,3,5,9]`
 #####Output:
 `False`
 
+#####Arguments
 `python sol1a.py 9 [2,2,2,11]`
 #####Output:
 `False`
