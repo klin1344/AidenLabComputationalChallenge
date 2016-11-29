@@ -27,22 +27,22 @@ Run the solution using Python 2.7.  The program looks for two call-line argument
 `<buckets>` should be a list of numbers, separated by commas, should not contain spaces, and should have an opening and closing brace, e.g., `[1,2,3,4]`
 
 ####Examples:
-#####Arguments
+#####Run
 `python sol1a.py 50 [2,4,6]`
 #####Output:
 `True`
 
-#####Arguments
+#####Run
 `python sol1a.py 976 [2,7,9,9]`
 #####Output:
 `True`
 
-#####Arguments
+#####Run
 `python sol1a.py 1 [2,3,5,9]`
 #####Output:
 `False`
 
-#####Arguments
+#####Run
 `python sol1a.py 9 [2,2,2,11]`
 #####Output:
 `False`
