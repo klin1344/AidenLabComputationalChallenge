@@ -21,18 +21,18 @@ According to a small test study I conducted here at Rice University, those with 
 
 
 ###How To Use:
-Run the solution using Python 2.7.  The program looks for one call-line argument `<sequence of numbers>`, e.g., `9854373289234`
+Run the solution using Python 2.7.  Make sure the audio files are in the same directory as `sol1b.py`.  The program looks for one call-line argument `<sequence of numbers>`, e.g., `9854373289234`
 
 ####Examples:
 #####Run
 `python sol1b.py 704981234`
 #####Output:
-```Numbers:  [7, 0, 4, 9, 8, 1, 2, 3, 4]
-Notes: ['C2', 'C', 'G', 'E2', 'D2', 'D', 'E', 'F', 'G']```
+`Numbers:  [7, 0, 4, 9, 8, 1, 2, 3, 4]`
+`Notes: ['C2', 'C', 'G', 'E2', 'D2', 'D', 'E', 'F', 'G']`
 
 #####Run
 `python sol1b.py 0123456789`
 #####Output:
-```Numbers:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-Notes: ['C', 'D', 'E', 'F', 'G', 'A', 'B', 'C2', 'D2', 'E2']```
+`Numbers:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
+`Notes: ['C', 'D', 'E', 'F', 'G', 'A', 'B', 'C2', 'D2', 'E2']`
 
